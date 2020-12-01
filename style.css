@@ -1,0 +1,248 @@
+
+@font-face 
+{
+    font-family: 'alaskaregular';
+    src: url('alaska_font-webfont.woff2') format('woff2'),
+         url('alaska_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+font-face {
+    font-family: '20_dbregular';
+    src: url('20db-webfont.woff2') format('woff2'),
+         url('20db-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alluraregular';
+    src: url('allura-regular-webfont.woff2') format('woff2'),
+         url('allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: url('chunkfive-regular-webfont.woff2') format('woff2'),
+         url('chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body
+{
+	background-color: rgb(254,234,192);
+	font-family: "Times New Roman", Impact, Arial, Verdana, "sans-serif"; 
+	font-weight: normal;
+}
+
+#bloc_page
+{
+	width: 1300px;
+	margin: auto;
+}
+
+header
+{
+	background: url(img/separateur.png) no-repeat bottom ;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+header h1
+
+{
+	font-family: 'kaushan script', "Times New Roman", Impact, Arial, Verdana, "sans-serif"; 
+	color: floralwhite;
+	font-size: 1.7em;
+	margin-left: 230px;
+}
+
+
+header h2
+{
+	font-family:'kaushan script', "Times New Roman", Impact, Arial, Verdana, "sans-serif"; 
+	color: floralwhite;
+	font-size: 1.8em;
+	margin-left: 180px;
+
+ }
+
+
+#en_tete
+{
+	
+	height: 250px;
+	border: 1px solid orange ;
+	background-image: url(img/ukulele2.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+
+
+#welcome
+{
+	background-image: url(img/ilot.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+
+
+#titre
+{
+	font-family: 'kaushan script';
+	font-size: 2em;
+	
+}
+
+#description h1
+{
+	font-size: 4em;
+	font-family: 'kaushan script';
+	text-align: center;
+	color: floralwhite;
+
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	
+}
+
+nav li
+{
+	margin-right: 20px;
+}
+
+
+h2
+{
+	font-family: 'kaushan script', "Times New Roman", Impact, Arial, "sans-serif";
+	color: floralwhite;
+}
+
+p
+{
+	font-family: "Times New Roman", Impact, Arial, Verdana, "sans-serif";
+	color: floralwhite;
+}
+
+
+.photo
+{
+	width: 150px;
+	height: 150px;
+}
+
+
+#galerie
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	}
+
+#moi 
+{
+	border: 4px double white;
+	width: 350px;
+	height: 500px;
+	overflow: auto;
+
+}
+
+#photobar
+{
+	border: 4px double white;
+	width:350px;
+	height: 500px;
+	overflow: auto;
+}
+
+
+#photochant
+{
+	border: 4px double white;
+	width: 350px;
+	height: 500px;
+	overflow: auto;
+}
+
+#voyages
+{
+	border: 4px double white;
+	width: 350px;
+	height: 500px;
+	overflow: auto;
+}
+
+
+
+section
+{
+	border: 4px double white;
+	flex-wrap: nowrap;
+	word-wrap: break-word;
+}
+
+aside
+{ 
+	border: 4px double white;
+	padding: 20px;
+	width: 300px;
+}
+
+
+nav a
+{
+	color: rgb(94,47,47);
+	font-size: 1.8em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+	color:darkslateblue;
+}
+
+nav a:active
+{
+	color: pink;
+}
